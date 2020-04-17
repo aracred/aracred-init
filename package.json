@@ -1,8 +1,11 @@
 {
   "name": "aracred-init",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI to bootstrap an aracred instance.",
-  "main": "src/index.js",
+  "bin": {
+    "init": "./src/index.js"
+  },
+  "main": "./src/index.js",
   "dependencies": {
     "chalk": "^4.0.0",
     "clear": "^0.1.0",
