@@ -1,6 +1,6 @@
 {
   "name": "aracred-init",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "CLI to bootstrap an aracred instance.",
   "bin": {
     "init": "./src/index.js"
@@ -14,6 +14,7 @@
     "crypto-js": "^4.0.0",
     "execa": "^4.0.0",
     "figlet": "^1.3.0",
+    "inquirer": "^7.1.0",
     "listr": "^0.14.3",
     "node-fetch": "^2.6.0",
     "prettier": "^2.0.4"
